@@ -11,7 +11,7 @@ for(let i=1; i<=100; i++) {
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 function fizzbuzz(n) {
-    out = '';
+    let out = '';
     if(n % 3 == 0) {
         out = 'FIZZ';
     }
